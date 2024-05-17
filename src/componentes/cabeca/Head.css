@@ -1,3 +1,90 @@
-.cabeca{
-    color:grey
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #012340;
+    color: #fff;
+    padding: 20px;
+}
+
+.profile-picture img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-content h1 {
+    margin: 0;
+}
+
+.header-content p {
+    margin: 5px 0;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    border-bottom: 2px solid #025939;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin: 0;
+    color: #025939;
+}
+
+.job, .education-item {
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #e7e7e7;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color:#012340;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    
+    bottom: 0;
+    width: 100%;
 }

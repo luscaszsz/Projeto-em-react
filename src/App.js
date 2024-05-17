@@ -1,6 +1,9 @@
 import { useState } from 'react';
 import Formulario from './componentes/Formulario/index.js';
-import Head from './componentes/cabeca/Head.js';
+
+import Footer from './componentes/Footer/index.js'
+
+import Apresentacao from './componentes/cabeca/Head.js';
 
 
 
@@ -13,9 +16,9 @@ function App() {
 
   return (
     <div>
-      <Head/>
+      <Apresentacao/>
       <Formulario mensagemCadastrada={mensagem => novaMensagemAdicionada(mensagem)}/>
-
+      <Footer/>
     </div>
   );
 }

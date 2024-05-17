@@ -3,7 +3,7 @@ import './Form.css'
 
 const Form = (propriedade) => {
     
-    const place = `Digite seu ${propriedade.placeholder}`
+    const place = `${propriedade.placeholder}`
 
     
     const aoDigitado = (evento) =>{
